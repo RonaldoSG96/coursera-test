@@ -4,13 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        .row {
+          display: flex;
+        }
+        
+        /* Create three equal columns that sits next to each other */
+        .column {
+          flex: 33.33%;
+          padding: 5px;
+        }
+        </style>
     <title>My Testing Environment</title>
 </head>
 <body>
     <header id="top">
-        <img style="text-align: right;"src="https://github.com/RonaldoSG96/coursera-test/blob/main/site/turbanaldo%20color.png?raw=true" alt="TurbaNaldo" style="width:5.7px;height:9px;">
-        <img style="text-align: left;"src="https://github.com/RonaldoSG96/coursera-test/blob/main/site/turbanaldo%20bw.png?raw=true" alt="TurbaNaldoBW" style="width:5.7px;height:9px;">   
-            <nav style="text-align: right;">
+        <div class="row">
+            <div class="column">
+                <img src="https://github.com/RonaldoSG96/coursera-test/blob/main/site/turbanaldo%20color.png?raw=true" alt="TurbaNaldo" style="width:50%">
+            </div>
+            <div class="column">
+              
+            </div>
+            <div class="column">
+                <img src="https://github.com/RonaldoSG96/coursera-test/blob/main/site/turbanaldo%20bw.png?raw=true" alt="TurbaNaldo" style="width:50%">
+            </div>
+          </div>
+            
+            <nav style="text-align: center;">
                 <a href="https://www.geogebra.org/u/ronaldosg96" target="_blank" title="My GeoGebra"><img src="https://www.geogebra.org/resource/XUv5mXTm/Ny8UYWy5AjUl781N/material-XUv5mXTm-thumb@l.png" alt="GeoGebra Icon" style="width:52px;height:43px;"></a>
             </nav>
     </header>
