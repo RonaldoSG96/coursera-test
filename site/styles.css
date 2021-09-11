@@ -3,7 +3,7 @@ title {
 }
 
 body {
-    background-color: rgb(155, 155, 255);
+    align-self: center;
 }
 
 header {
@@ -11,6 +11,11 @@ header {
 }
 h1 {
     color: rgb(3, 3, 29);
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
 }
 
 #turbanaldo1, #turbanaldo2 {
@@ -28,19 +33,50 @@ li.bold {
 }
 
 .button {
-    background-color: #200f03; /* Green */
+    /* background-color: #200f03; */
+    background-color: lightgray;
     border: none;
     border-radius: 12px;
-    color: white;
-    padding: 15px 32px;
+    color: black;
+    padding: 7px 16px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    display: block;
 }
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 35px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
 
 footer {
     text-align: right;
+}
+
+h3 {
+    font-family: verdana;
 }
