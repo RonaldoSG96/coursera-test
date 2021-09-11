@@ -1,0 +1,46 @@
+title {
+    font-family: verdana;
+}
+
+body {
+    background-color: rgb(155, 155, 255);
+}
+
+header {
+    text-align: center;
+}
+h1 {
+    color: rgb(3, 3, 29);
+}
+
+#turbanaldo1, #turbanaldo2 {
+    width: 57px;
+    height: 90px;
+}
+
+li.font {
+    font-family: verdana;
+    margin: 12px;
+}
+
+li.bold {
+    font-weight: bold;
+}
+
+.button {
+    background-color: #200f03; /* Green */
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: right;
+}
