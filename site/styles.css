@@ -3,15 +3,21 @@ title {
 }
 
 body {
-    align-self: center;
+    font-family: Verdana;
 }
 
-header {
-    text-align: center;
+header li {
+    list-style: none;
 }
-h1 {
+
+h1, h2, h3, h4, h5, h6 {
     color: rgb(3, 3, 29);
     text-align: center;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color:black;
 }
 
 p {
@@ -23,9 +29,9 @@ p {
     height: 90px;
 }
 
-li.font {
+li {
     font-family: verdana;
-    margin: 12px;
+    margin: 6px;
 }
 
 li.bold {
@@ -36,14 +42,14 @@ li.bold {
     /* background-color: #200f03; */
     background-color: lightgray;
     border: none;
-    border-radius: 12px;
+    border-radius: 10px;
     color: black;
-    padding: 7px 16px;
+    padding: 6px 12px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 18px;
+    margin: 12px 4px;
     cursor: pointer;
     display: block;
 }
@@ -65,7 +71,7 @@ li.bold {
   }
   
   .button:hover span {
-    padding-right: 35px;
+    padding-right: 25px;
   }
   
   .button:hover span:after {
@@ -75,8 +81,4 @@ li.bold {
 
 footer {
     text-align: right;
-}
-
-h3 {
-    font-family: verdana;
 }
