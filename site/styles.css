@@ -6,8 +6,29 @@ body {
     font-family: Verdana;
 }
 
-header li {
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(DAT\ B\ ME.png);
+    background-position: top;
+    background-size: 100%;
+    position: relative;
+}
+
+header a {
     list-style: none;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -25,8 +46,17 @@ p {
 }
 
 #turbanaldo1, #turbanaldo2 {
-    width: 57px;
-    height: 90px;
+    width: 171px;
+    height: 270px;
+    border-radius: 50px;
+}
+
+#turbanaldo1 {
+    float:left;
+}
+
+#turbanaldo2 {
+    float:right;
 }
 
 li {
@@ -34,12 +64,9 @@ li {
     margin: 6px;
 }
 
-li.bold {
-    font-weight: bold;
-}
 
-.button {
-    /* background-color: #200f03; */
+/*.button {
+    background-color: #200f03; 
     background-color: lightgray;
     border: none;
     border-radius: 10px;
@@ -51,7 +78,6 @@ li.bold {
     font-size: 18px;
     margin: 12px 4px;
     cursor: pointer;
-    display: block;
 }
 
 .button span {
@@ -77,7 +103,7 @@ li.bold {
   .button:hover span:after {
     opacity: 1;
     right: 0;
-  }
+  }*/
 
 footer {
     text-align: right;
